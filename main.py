@@ -69,6 +69,7 @@ def process_verify(call):
 def handle_all_messages(message):
     start_cmd(message)
 
-if name == 'main':
+if __name__ == '__main__':
+    
     print("Бот запущен...")
     bot.infinity_polling()
